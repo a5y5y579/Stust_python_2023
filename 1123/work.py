@@ -16,7 +16,7 @@ class Employee:
         print(f'DEPARTMENT={self._department}')
 
     def calculate_emp_salary(self, hours_worked):   
-        base_salary = self._salary  # Fix: Use self._salary instead of self.emp_salary
+        base_salary = self._salary  
         if hours_worked > 50:
             overtime = hours_worked - 50
             overtime_amount = (overtime * (base_salary / 50))
