@@ -27,7 +27,7 @@ class Hot(Drinkstore):
 # 使用示例
 cold_drink = Cold("Iced Tea", "大", 50.0, "少冰", "半糖")
 hot_drink = Hot("Coffee", "中", 40.0, "微糖")
-cold_drink1 = Cold("Tea", "小", 50.0, "微冰", "無糖")
+cold_drink1 = Cold("Juice", "小", 50.0, "微冰", "無糖")
 
 print(cold_drink)
 print(hot_drink)
